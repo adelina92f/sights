@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css" />
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="content-wrapper">
         <header>
-            <div class="header-container"
-            <div class="container-logo">
+            <div class="header-container" <div class="container-logo">
                 <span class="logo">
                     Ботевград
                 </span>
@@ -24,188 +25,287 @@
                     <i class="fas fa-search"></i>Търсене
                 </span>
             </div>
-                <nav class="top-nav">
-                    <a href="#">Забележителности</a>
+            <nav class="top-nav">
+                <div class="navbar">
+                    <div class="dropdown">
+                        <button class="dropbtn">Забележителности
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ботевград</a>
+                            <a href="#">Скравена</a>
+                            <a href="#">Врачеш</a>
+                            <a href="#">Урвич</a>
+                            <a href="#">Трудовец </a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Събитя
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">3-ти Март</a>
+                            <a href="#">Великден</a>
+                            <a href="#">24-ти Май</a>
+                            <a href="#">2-ри Юни</a>
+                            <a href="#">1-ви Декември</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Храна и напитки
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Цвет</a>
+                            <a href="#">Сладолед бар</a>
+                            <a href="#">Релакс</a>
+                            <a href="#">Роял</a>
+                            <a href="#">Олимп</a>
+                            <a href="#">Скравена</a>
+                            <a href="#">Нобилис</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Настаняване
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Хотел Ботевград</a>
+                            <a href="#">Къща за гости - Скравена</a>
+                            <a href="#">Кредо</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Свободно време
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Кино</a>
+                            <a href="#">Конна база</a>
+                            <a href="#">Ледена пързалка</a>
+                            <a href="#">Плуване</a>
+                            <a href="#">Уроци по танци</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Новини
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Община Ботевград</a>
+                            <a href="#">Община Правец</a>
+                            <a href="#">Община Враца</a>
+                        </div>
+                    </div>
+                </div>
+                <!--<a href="#">Забележителности</a>
                     <a href="#">Събитя</a>
                     <a href="#">Храна и напитки</a>
                     <a href="#">Свободно време</a>
                     <a href="#">Настаняване</a>
-                    <a href="#">Новини</a>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section class="hero-title content-section">
-                <div id="myFirstSlider" class="slider">
-                    <div class="slider__holder">
-                        <div class="slider__item">
-                           <img src="images/kula.png" alt="">
-                           <div class="title-img">
-                                <h1>Ботевград.</h1>
-                            </div>
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/panorama1.png" alt="">
-                            <div class="title-img">
-                                    <h1>Ботевград.</h1>
-                                </div>
-                        </div>
-                        <div class="slider__item">
-                        <img src="images/arenabtg.jpg" alt="">
+                    <a href="#">Новини</a>-->
+            </nav>
+    </div>
+    </header>
+    <main>
+        <section class="hero-title content-section">
+            <div id="myFirstSlider" class="slider">
+                <div class="slider__holder">
+                    <div class="slider__item">
+                        <img src="images/15435862825c0141ead54a0.jpg" alt="">
                         <div class="title-img">
-                                <h1>Ботевград.</h1>
-                            </div>
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/1024px-Botevgrad-history-museum.jpg" alt="">
-                            <div class="title-img">
-                                    <h1>Ботевград.</h1>
-                                </div>
+                            <h1>Ботевград.</h1>
                         </div>
                     </div>
-                    <div class="slider__actions">
-                        <button class="slider__control control" data-image="prev">&lt;</button>
-                        <button class="slider__control control" data-image="next">&gt;</button>
+                    <div class="slider__item">
+                        <img src="images/Arena_Botevgrad,_Bulgaria,_2014.06.06.jpg" alt="">
+                        <div class="title-img">
+                            <h1>Ботевград.</h1>
+                        </div>
                     </div>
-                    <div class="slider__paging">
+                    <div class="slider__item">
+                        <img src="images/1920x600-Vracheshki-Monastery.jpg" alt="">
+                        <div class="title-img">
+                            <h1>Ботевград.</h1>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <img src="images/1-min.jpg" alt="">
+                        <div class="title-img">
+                            <h1>Ботевград.</h1>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <h1>НАШИТЕ ПРЕДЛОЖЕНИЯ</h1>
-                <nav class="navigation">
-                        <a href="#">Ботевград</a>
-                        <a href="#">Скравена</a>
-                        <a href="#">Врачеш</a>
-                        <a href="#">Урвич</a>
-                        <a href="#">Трудовец</a>
-                    </nav>
-                <div class="container-section">
-                    <article class="box-news">
+                <div class="slider__actions">
+                    <button class="slider__control control" data-image="prev">&lt;</button>
+                    <button class="slider__control control" data-image="next">&gt;</button>
+                </div>
+                <div class="slider__paging">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>НАШИТЕ ПРЕДЛОЖЕНИЯ</h1>
+            <nav class="navigation">
+                <a href="#">Ботевград</a>
+                <a href="#">Скравена</a>
+                <a href="#">Врачеш</a>
+                <a href="#">Урвич</a>
+                <a href="#">Трудовец</a>
+            </nav>
+            <div class="container-section">
+                <article class="box-news">
+                    <a href="#">
                         <img src="images/bttg2.jpeg" alt="">
                         <h3>Часовникова кула</h3>
                         <p class="first">Часовниковата кула в Ботевград е символ на града и е част от Стоте национални туристически обекта
                             на България.
                         </p>
-                    </article>
-                    <article class="box-news">
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
                         <img src="images/Манастир_-_Врачеш_3.jpg" alt="">
                         <h3>Врачешки манастир </h3>
                         <p>Врачешкият манастир е основан през XIII век След битката при Клокотница, когато цар Иван Асен II
                             побеждава епирският деспот Теодор Комнин.
                         </p>
-                    </article>
-                    <article class="box-news">
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
                         <img src="images/3_1.jpg" alt="">
                         <h3>Паметник костница на Ботеви четници</h3>
-                        <p class="last">В нея се съхраняват черепите на 10 Ботеви четници от групата на Георги Апостолов, намерили смъртта
-                            си при разгрома на четата в Рашов дол край Ритлите, на 2 юни 1876 година
+                        <p class="last">В нея се съхраняват черепите на 10 Ботеви четници от групата на Г. Апостолов, намерили смъртта си
+                            при разгрома на четата в Рашов дол край Ритлите, на 2 юни 1876 г.
                         </p>
-                    </article>
-                    <article class="box-news">
-                            <img src="images/hramuspeniebogorodichno3.png" alt="">
-                            <h3>„Успение на Пресвета Богородица” </h3>
-                            <p>Православният храм „Успение на Пресвета Богородица” е изграден по проект на архитект Даниела Арбова. Стенописите и иконите са изпълнени от екип на Владимир Аврамов 
-                                
-                            </p>
-                        </article>
-                        <article class="box-news">
-                            <img src="images/history-museum-town-of-botevgrad-04.jpg" alt="">
-                            <h3>Исторически музей</h3>
-                            <p class="last"> С помощта на Общинското ръководство и кметът г-н Георги Георгиев на 3 май 2011г. бе тържествено открита реконструирана­та, по проект на арх. Весела Маркова.
-                            </p>
-                        </article>
-                </div>
-                <div class="container-section">
-                        <article class="box-news">
-                            <img src="images/sv.vuznasenie1.png" alt="">
-                            <h3>Църквата "Св. Възнесение Господне"</h3>
-                            <p class="first">На мястото й е имало древен параклис, върху чийто основи е издигната църква „Св. Георги”. През 1826 г. към нея е функционирало Килийно училище.
-                            </p>
-                        </article>
-                        <article class="box-news">
-                            <img src="images/svnikolai1.png" alt="">
-                            <h3>Манастир"Св.Николай"</h3>
-                            <p>Съдбата на манастира е тясно свързана с историята на това селище.  На 1март 1938 година, група скравенчани под ръководството на поп Филип Иванов,започват разкопки на това място
-                            </p>
-                        </article>
-                        <article class="box-news">
-                            <img src="images/kuzmaidamqn1.png" alt="">
-                            <h3>Църквата „Св. Козма и Дамян”
-                                </h3>
-                            <p class="last">През  1856 година в селото е била завършена постройката на църквата,но тя се оказала малка  за населението. Църква била осветена през месец ноември  1896 година.
-                            </p>
-                        </article>
-                        <article class="box-news">
-                                <img src="images/bebresh1.png" alt="">
-                                <h3>Язовир Бебреш </h3>
-                                <p>Той е построен и завършен през 1987г. с цел напояване на земеделски земи. Днес водите му се използват както за промишлени цели, така и за питейно-битово.
-                                </p>
-                            </article>
-                            <article class="box-news">
-                                <img src="images/urvich1.png" alt="">
-                                <h3>Боженишки урвич</h3>
-                                <p class="last">Боженишки урвич е средновековна крепост , която се намира върху виоко възвишение, част от Предбалкана. Проучанията на археолозите доказват обитанието на хълма още от 4-то хил. пр. Хр. 
-                                </p>
-                            </article>
-                    </div>
-            </section>
-            <div class="social-media">
-                    <i class="fas fa-envelope"></i>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/hramuspeniebogorodichno3.png" alt="">
+                        <h3>„Успение на Пресвета Богородица” </h3>
+                        <p>Православният храм „Успение на Пресвета Богородица” е изграден по проект на архитект Даниела Арбова.
+                            Стенописите и иконите са изпълнени от екип на Владимир Аврамов
+
+                        </p>
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/history-museum-town-of-botevgrad-04.jpg" alt="">
+                        <h3>Исторически музей</h3>
+                        <p class="last"> С помощта на Общинското ръководство и кметът г-н Георги Георгиев на 3 май 2011г. бе тържествено открита
+                            реконструирана­та, по проект на арх. Весела Маркова.
+                        </p>
+                    </a>
+                </article>
             </div>
-        </main>
-        <footer>
-            <div class="footer-container">
-                <div class="footer-box">
-                    <h3>Забележителности</h3>
-                    <nav class="footer-nav">
+            <div class="container-section">
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/sv.vuznasenie1.png" alt="">
+                        <h3>Църквата "Св. Възнесение Господне"</h3>
+                        <p class="first">На мястото й е имало древен параклис, върху чийто основи е издигната църква „Св. Георги”. През 1826
+                            г. към нея е функционирало Килийно училище.
+                        </p>
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/svnikolai1.png" alt="">
+                        <h3>Манастир"Св.Николай"</h3>
+                        <p>Съдбата на манастира е тясно свързана с историята на това селище. На 1март 1938 година, група скравенчани
+                            под ръководството на поп Филип Иванов,започват разкопки на това място
+                        </p>
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/kuzmaidamqn1.png" alt="">
+                        <h3>Църквата „Св. Козма и Дамян”
+                        </h3>
+                        <p class="last">През 1856 година в селото е била завършена постройката на църквата,но тя се оказала малка за населението.
+                            Църква била осветена през месец ноември 1896 г.
+                        </p>
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/bebresh1.png" alt="">
+                        <h3>Язовир Бебреш </h3>
+                        <p>Той е построен и завършен през 1987г. с цел напояване на земеделски земи. Днес водите му се използват
+                            както за промишлени цели, така и за питейно-битово.
+                        </p>
+                    </a>
+                </article>
+                <article class="box-news">
+                    <a href="#">
+                        <img src="images/urvich1.png" alt="">
+                        <h3>Боженишки урвич</h3>
+                        <p class="last">Боженишки урвич е средновековна крепост , която се намира върху виоко възвишение, част от Предбалкана.
+                            Проучанията на археолозите доказват обитанието на хълма още от 4-то хил. пр. Хр.
+                        </p>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <div class="social-media">
+            <i class="fas fa-envelope"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h3>Забележителности</h3>
+                <nav class="footer-nav">
                     <a href="#">Ботежград</a>
                     <a href="#">Скравена</a>
                     <a href="#">Урвич</a>
                     <a href="#">Врачеш</a>
                     <a href="#">Трудовец</a>
                 </nav>
-                </div>
-                <div class="footer-box">
-                    <h3>Събитя</h3>
-                    <nav class="footer-nav">
-                            <a href="#">24 Май</a>
-                            <a href="#">1 Юни</a>
-                            <a href="#">2 Юни</a>
-                        </nav>
-                </div>
-                <div class="footer-box">
-                    <h3>Храни и напитки</h3>
-                    <nav class="footer-nav">
-                            <a href="#">Ресоранти</a>
-                            <a href="#">Кафе</a>
-                            <a href="#">Дискотеки</a>
-                            <a href="#">Механи</a>
-                        </nav>
-                </div>
-                <div class="footer-box">
-                        <h3>Свободно време</h3>
-                        <nav class="footer-nav">
-                                <a href="#">Кино</a>
-                                <a href="#">Конна база</a>
-                                <a href="#">Ледена пързалка</a>
-                                <a href="#">Плуване</a>
-                                <a href="#">Уроци по танци</a>
-                            </nav>
-                    </div>
-                    <div class="footer-box">
-                            <h3>Настаняване</h3>
-                            <nav class="footer-nav">
-                                    <a href="#">Хотели</a>
-                                    <a href="#">Къща за гости</a>
-                                </nav>
-                        </div>
             </div>
-            <p class="last-p">© Adelina Nikolova, 2019</p>
-        </footer>
+            <div class="footer-box">
+                <h3>Събитя</h3>
+                <nav class="footer-nav">
+                    <a href="#">24 Май</a>
+                    <a href="#">1 Юни</a>
+                    <a href="#">2 Юни</a>
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>Храни и напитки</h3>
+                <nav class="footer-nav">
+                    <a href="#">Ресоранти</a>
+                    <a href="#">Кафе</a>
+                    <a href="#">Дискотеки</a>
+                    <a href="#">Механи</a>
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>Свободно време</h3>
+                <nav class="footer-nav">
+                    <a href="#">Кино</a>
+                    <a href="#">Конна база</a>
+                    <a href="#">Ледена пързалка</a>
+                    <a href="#">Плуване</a>
+                    <a href="#">Уроци по танци</a>
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3>Настаняване</h3>
+                <nav class="footer-nav">
+                    <a href="#">Хотели</a>
+                    <a href="#">Къща за гости</a>
+                </nav>
+            </div>
+        </div>
+        <p class="last-p">© Adelina Nikolova, 2019</p>
+    </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>

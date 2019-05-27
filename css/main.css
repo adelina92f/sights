@@ -12,6 +12,7 @@ body{
     width: 100%;
     color: #000000;
     font-size: 16px;
+    font-family: 'Philosopher', sans-serif;
 }
 
 header{
@@ -52,14 +53,102 @@ header{
 }
 
 .slogan{
-    font-size: 26px;
+    display: none;
 }
 
+@media only screen and (min-width: 700px) {
+    .slogan{  
+      font-size: 26px;
+      display: inline;
+    }
+  }
+
 .search{
-    float: right;
-    font-size: 26px;
-    margin-right: 20px;
+    display: none;
 }
+
+@media only screen and (min-width: 450px) {
+    .search{
+        display: inline;
+        float: right;
+        font-size: 26px;
+        margin-right: 20px;
+    }
+  }
+
+
+/*Navigation*/
+.navbar {
+    overflow: hidden;
+    display:block;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #626BAD;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .dropdown {
+        float: left;
+        text-align: center;
+        overflow: hidden;
+      }
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background: #626BAD;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #626BAD;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .top-nav{
+     margin: auto;
+  }
+  /*Navigation*/
 
 .top-nav{
     display: block;
@@ -76,7 +165,7 @@ header{
       text-decoration: none;
       font-size: 12px;
        color: #fff;
-      border-right: 1px solid white;
+      /*border-right: 1px solid white;*/
       padding: 10px;
   }
 
@@ -160,7 +249,6 @@ button{
     color: #fff;
     padding: 15px 25px;
     border: none;
-    border-radius: 25px;
 }
 .hero{
     max-width: 1024px;
@@ -189,14 +277,25 @@ button{
 
 .container-section{
     width: 100%;
+    margin: auto;
     display: block;
     margin-top: 60px;
 }
 
 @media only screen and (min-width: 700px) {
     .container-section{
-        display: flex;
-       justify-content: space-evenly;
+       display: flex;
+       justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container-section{
+         display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 1024px;
+        height: 400px;
     }
 }
 
@@ -217,8 +316,7 @@ section h1{
 }
 
 .navigation{
-    display: inline-block;
-    margin-left: 25%;
+    text-align: center;
 }
 
 .navigation a{
@@ -229,7 +327,7 @@ section h1{
 }
 
 .box-news{
-    width: 90%;
+    width: 50%;
     height: 100%;
     background: #fff;
     margin-bottom: 30px;
@@ -237,9 +335,10 @@ section h1{
     border: 2px solid #E7E7E7;
 }
 
+
 @media only screen and (min-width: 700px) {
     .box-news{
-        width: 15%;
+        width: 25%;
         height:100%;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -248,8 +347,8 @@ section h1{
 
 @media only screen and (min-width: 1024px) {
     .box-news{
-        width: 17%;
-        height:400px;
+        width: 19%;
+        height:100%;
     }
 }
 
@@ -310,10 +409,8 @@ section h1{
 
 .box-news a{
     text-decoration: none;
-    padding: 5px 10px;
     border: none;
-    color: #fff;
-    background: #454545;
+    color: #000;
 }
 
 .social-media{
